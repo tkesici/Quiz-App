@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="title">dak.ik - Kişilik ve Envanter Testi</div>
+  <div class="content">
+    <form action="#">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Adınız</span>
+          <input type="text" value="" required>
+        </div>
+        <div class="input-box">
+          <span class="details">SOYADINIZ</span>
+          <input type="text" value="" style="text-transform: uppercase;" required>
+        </div>
+        <div class="input-box">
+          <span class="details">TCKN</span>
+          <input type="text" value="" maxlength="11" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Mail Adresiniz</span>
+          <input type="email" value="" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Doğum Tarihiniz</span>
+          <input type="text" value="" class="date-slashes" maxlength="10" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Telefon Numaranız</span>
+          <input type="text" value="" maxlength="10" required>
+        </div>
+      </div>
+      <div class="gender-details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <span class="gender-title">Cinsiyet</span>
+        <div class="category">
+          <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Erkek</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Kadın</span>
+          </label>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="Devam Et">
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
+<script src="script.js"></script>
